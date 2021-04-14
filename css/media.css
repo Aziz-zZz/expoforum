@@ -1,0 +1,175 @@
+@media(max-width:1330px){
+	.intro__item{
+	width: 100%;
+}
+	.intro__content{
+	padding-left: 0;
+	text-align:center;
+}
+}
+	
+@media(max-width:1250px){
+	.box{
+	justify-content: center;
+	padding-left: 0;
+}
+}
+
+@media(max-width:1146px){
+	.footer__item{
+	width: 50%;
+}
+
+}
+
+
+@media(max-width:1100px){
+	.company__item{
+	width: 50%;
+	margin-bottom: 35px;
+}
+	.company__link{
+	display: block;
+	white-space: nowrap;
+}
+	.company__inner{
+	text-align:center;
+}
+	.news__item{
+	width: 100%;
+}
+	.news__images{
+	width: 100%;
+}
+}
+
+@media(max-width:950px){
+	.media__item{
+	width: 50%;
+}
+}
+
+@media(max-width:900px){
+	.menu{
+	display: none;
+	position: absolute;
+	top:72%;
+	text-align: center;
+	width: 100%;
+	flex-direction: column;
+	background:#313444;
+	right: 0;
+	padding: 20px;
+}
+	.burger{
+	display: block;
+}
+
+	.menu__link{
+	margin: 0;
+	padding: 10px 0;
+}
+
+	.intro__title{
+	font-size:58px;
+	line-height: 140%;
+}
+
+	.intro__box{
+	margin-right: 0;
+	margin-bottom: 0;
+	margin: 15px 15px;
+}
+	.media__title{
+	font-size:25px;
+	padding: 0 12px;
+}
+	.about__title{
+	font-size:18px;
+	line-height: 115%;
+}
+}
+
+
+@media(max-width:768px){
+	.intro__title{
+	padding: 0 10px;
+}
+	.company__item{
+	width: 100%;
+	margin-bottom: 35px;
+}
+	.media__item{
+	width: 100%;
+	text-align: center;
+}
+	.media__img{
+	margin: 0 auto 20px;
+}
+	.about__title{
+	font-size:15px;
+	line-height: 130%;
+}
+}
+
+
+@media(max-width:616px){
+	.box{
+	margin-top: 50px;
+	display: block;
+}
+	.box__about{
+	font-size:15px;
+	line-height: 100%;
+}
+	.intro__box{
+	max-width:100%;
+}
+	.link{
+	font-size:14px;
+}
+	.media__heading{
+	flex-direction: column;
+}
+	.media__title{
+	margin-bottom: 20px;
+}
+	.blog__about{
+	flex-direction: column;
+	text-align:center;
+}
+	.about__img{
+	margin-right: 0;
+	padding: 0;
+	margin: 0 auto 10px;
+}
+	.footer__item{
+	width: 100%;
+	padding-right: 0;
+}
+	.footer__inner{
+	text-align: center;
+}
+	.social{
+	text-align:center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+}
+
+
+
+@media(max-width:455px){
+	.intro__title{
+	font-size: 37px;
+	line-height: 100%;
+	margin-bottom: 15px;
+}
+	.intro__text{
+	font-size:20px;
+}
+	.media__title{
+	font-size:17px;
+}
+}
+
